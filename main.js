@@ -86,12 +86,12 @@ async function getAccountAccess(clientId, scopes) {
       clearInterval(dcfInterval);
       dcfInterval = null;
       console.log(
-        `Got Device Code Flow Tokens for ${user.display_name} (${user.login}, Scopes: ${
+        `Success! Got Device Code Flow Tokens for ${user.display_name} (${user.login}, Scopes: ${
           decodeURIComponent(scopesStr)
         })`,
       );
       alert(
-        `Got Device Code Flow Tokens for ${user.display_name} (${user.login}, Scopes: ${
+        `Success! Got Device Code Flow Tokens for ${user.display_name} (${user.login}, Scopes: ${
           decodeURIComponent(scopesStr)
         })`,
       );
